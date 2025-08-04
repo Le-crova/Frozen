@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frozen - Uma Aventura Congelante</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&family=Great+Vibes&display=swap');
+
+        body {
+            margin: 0;
+            font-family: 'Raleway', sans-serif;
+            background: linear-gradient(to bottom, #a8d8f0, #ffffff);
+            color: #03304d;
+        }
+        header {
+            background: url('https://lumiere-a.akamaihd.net/v1/images/open-uri20150608-27674-1hizd3k_0e6abccd.jpeg?region=0%2C0%2C2048%2C878') no-repeat center/cover;
+            height: 60vh;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+        }
+        header h1 {
+            font-family: 'Great Vibes', cursive;
+            font-size: 4rem;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.5rem;
+            margin-top: 10px;
+        }
+        nav {
+            background: #03304d;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #ffffff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #8fd3f4;
+        }
+        section {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #03304d;
+            border-left: 5px solid #8fd3f4;
+            padding-left: 10px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-8px);
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        footer {
+            background: #03304d;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Frozen: Uma Aventura Congelante</h1>
+        <p>Descubra o mundo gelado de Arendelle</p>
+    </header>
+
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#personagens">Personagens</a>
+        <a href="#trilha">Trilha Sonora</a>
+        <a href="#galeria">Galeria</a>
+    </nav>
+
+    <section id="sobre">
+        <h2>Sobre o Filme</h2>
+        <p><strong>Frozen: Uma Aventura Congelante</strong> (2013) é um filme de animação da Disney inspirado no conto “A Rainha da Neve”. 
+        A história acompanha as irmãs Elsa e Anna, princesas de Arendelle, que enfrentam desafios quando Elsa perde o controle de seus poderes mágicos de gelo. 
+        Uma aventura de amizade, amor e autodescoberta.</p>
+    </section>
+
+    <section id="personagens">
+        <h2>Personagens Principais</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://lumiere-a.akamaihd.net/v1/images/open-uri20150608-27674-w4q3v4_1d8c7e3d.jpeg" alt="Elsa">
+                <h3>Elsa</h3>
+                <p>A Rainha da Neve, dona de poderes mágicos de gelo. Uma personagem complexa e cheia de dilemas internos.</p>
+            </div>
+            <div class="card">
+                <img src="https://lumiere-a.akamaihd.net/v1/images/open-uri20150608-27674-1usfke1_09e2b6ee.jpeg" alt="Anna">
+                <h3>Anna</h3>
+                <p>A corajosa irmã mais nova que embarca em uma jornada para salvar Arendelle e trazer Elsa de volta.</p>
+            </div>
+            <div class="card">
+                <img src="https://lumiere-a.akamaihd.net/v1/images/open-uri20150608-27674-dofq5l_c51d8a50.jpeg" alt="Olaf">
+                <h3>Olaf</h3>
+                <p>Um boneco de neve falante criado por Elsa. Engraçado, inocente e com um coração enorme.</p>
+            </div>
+            <div class="card">
+                <img src="https://lumiere-a.akamaihd.net/v1/images/open-uri20150608-27674-1rj2zgb_6b2d1b2f.jpeg" alt="Kristoff e Sven">
+                <h3>Kristoff & Sven</h3>
+                <p>O destemido vendedor de gelo e seu fiel amigo rena, que ajudam Anna em sua jornada.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="trilha">
+        <h2>Trilha Sonora</h2>
+        <p>A trilha sonora de Frozen é um dos pontos mais marcantes do filme, com destaque para a icônica canção <strong>"Let It Go" (Livre Estou)</strong>, vencedora do Oscar de Melhor Canção Original em 2014. A música transmite a libertação e aceitação de Elsa de quem ela realmente é.</p>
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/L0MK7qz13bU" title="Let It Go" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section id="galeria">
+        <h2>Galeria</h2>
+        <div class="grid">
+            <img src="https://lumiere-a.akamaihd.net/v1/images/frozen_gallery_1_03fbea58.jpeg" alt="Cena 1">
+            <img src="https://lumiere-a.akamaihd.net/v1/images/frozen_gallery_2_9f3e48c4.jpeg" alt="Cena 2">
+            <img src="https://lumiere-a.akamaihd.net/v1/images/frozen_gallery_3_9b0e50c4.jpeg" alt="Cena 3">
+            <img src="https://lumiere-a.akamaihd.net/v1/images/frozen_gallery_4_d8486f3e.jpeg" alt="Cena 4">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 - Página temática de Frozen feita por fãs. Imagens e direitos pertencem à Disney.</p>
+    </footer>
+</body>
+</html>
